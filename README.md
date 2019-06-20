@@ -8,7 +8,7 @@
 
 
 **Redux branch**:
-  - Makes use of **Redux**, and Loca UI state
-  - Uses **Redux store, Reducers, Dispatchers** to create a flow of state through the app 
+  - Makes use of **Redux**, and Local UI state
+  - Uses **Redux store, Reducers, Dispatchers** to create a flow of state throughout the app 
   
 
