@@ -1,13 +1,13 @@
-# No Redux Branch
+# Refactored Branch using Redux
 
-  - This branch does not use Redux
-  - This branch is the App I took and converted it to use **Redux**
-  - To check the same project that uses Redux you can compare the two branches
-  - If you only want to see the Redux project switch to the **MASTER** branch
+  - This branch uses Redux
+  - This branch is the App converted to use **Redux**
+  - To check the same project that uses Does not use **Redux** you can compare this branch to the **No Redux** branch
+  - If you only want to see the Original App without **Redux** witch to the **No Redux** branch
 
 
-**No Redux branch**:
-  - Doesn't use **Redux** at all
-  - Uses **Container** components to update set and pass state
+**Redux branch**:
+  - Makes use of **Redux** doesn't use any internal React class component state
+  - Uses **Redux store, Reducers, Dispatchers** to create a flow of state through the app 
   
 
