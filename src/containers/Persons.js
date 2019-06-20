@@ -32,7 +32,9 @@ const mapDispatchToProps = dispatch => {
         // We retrieve the action from the actionTypes that we import from action.js 
         // The action.js file simply holds hardcoded values of our action type so we have less risk of typos that would be hard to debugg in larger apps
 
-        onAddingPerson: () => dispatch({type: actionTypes.ADD_PERSON}), 
+        onAddingPerson: (name,age) => dispatch({type: actionTypes.ADD_PERSON, personInfo: {name: name, age:age}}), // onAddngPerson dispatcher receives a payload of name and age 
+                                                                                                                  // which is gained through the state of AddPerson.js combining local ui state and redux
+
         onDeletingPerson: (id) => dispatch({type: actionTypes.DELETE_PERSON, personId: id}) // We immediately pass a payload to the dispatcher with the id of the specific card/person
                                                                                             // so that react can know which person was clicked and delete that person
     }
